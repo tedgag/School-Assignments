@@ -1,4 +1,5 @@
 COMP-248 Outline
+
   The primary objective of this course is to enable you to understand the basic principles of programming. The language used for the course is Java, chosen because it supports object oriented programming and because it is becoming widely used in industry.
   By the end of this course you will be able to:
     -Develop an algorithm for the solution of a simple problem. 
