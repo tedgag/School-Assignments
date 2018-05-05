@@ -1,1 +1,15 @@
-O
+COMP 249
+  The course covers the higher-level subjects of object-oriented programming, including the design of classes, inheritance, composition, polymorphism, static and dynamic binding, abstract classes, exception handling, file I/O, recursion, interfaces, inner classes, graphical user interfaces, generics, collections and iterators. Various data structures will be introduced including Array Lists, Linked Lists, Hash Tables, Tress and Sets.
+  By the end of this course you will be able to:
+  1. Write more modular, robust and flexible Java programs by building on the knowledge you acquired in COMP 248 (Object           oriented Programming I).
+  2. Design and implement Java programs which:
+    - Include a hierarchy of classes (inheritance , polymorphism and abstract classes, inner
+      classes and interfaces)
+    - Include generic classes
+    - Deal with unexpected situations (exception handling)
+    - Read and/or write data to/from a file (not just from a keyboard and to the screen)
+    - Use Collections and make use of tools that allow you cycle through all elements of a collection (iterators)
+    - Use data structure classes which are available in Java libraries such as Array Lists, Linked Lists, Hash Tables, Trees  and Sets to name a few.
+  3. Design and implement:
+    - Methods that call themselves (recursion)
+    - Graphical user interfaces (GUIs)
