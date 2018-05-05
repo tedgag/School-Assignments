@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+// ------------------------------------------------------------------------------
+// Assignment 4 Question 4
+// Written by: Édouard Gagné 40061204
+// For SOEN 287 Section U – Winter 2018
+// This script has a function StringStats that takes as a parameter a sentence
+// and prints the number of vowels in each words of the sentence in the html document.
+// -----------------------------------------------------------------------------
+  var sentence = "The word rhythms doesn't contain any vowels";
+  function StringStats(sentence) {
+    //Initializing the text that will be printed
+    var text="String Statistics:" +"<br>";
+    //Creating an array that contains each word in the sentence
+    var wordsArray=sentence.split(" ");
+    // For each word in the array,this loop will check if each letter is a vowel or not.
+    // If it is, it will increment the vowel variable by 1 and add to the text the word
+    // and its number of vowels.
+    for (i=0;i<wordsArray.length; i++){
+      var vowels=0;
+      for (j=0;j<wordsArray[i].length;j++) {
+        if (wordsArray[i].charAt(j) == 'a' || wordsArray[i].charAt(j) == 'e' || wordsArray[i].charAt(j) == 'i' || wordsArray[i].charAt(j) == 'o' || wordsArray[i].charAt(j) == 'u') {
+          vowels+=1
+        }
+      }
+      if (vowels != 1) {
+        text+= wordsArray[i] + " contains " + vowels + " vowels" + "<br>"
+      } else {
+        text+= wordsArray[i] + " contains " + vowels + " vowel" + "<br>"
+      }
+    }
+    //Printing the text
+    document.getElementById("statsOut").innerHTML = text;
+  }
+  </script>
+  <title>Assigment 2 Question 4</title>
+</head>
+<body onload="StringStats(sentence)">
+<div id="statsOut"></div>
+</body>
+</html>

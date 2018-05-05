@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="plotHistogram.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="A2Q3.css">
+  <title>Assigment 2 Question 3</title>
+</head>
+<body>
+<form>
+  <table>
+    <tr>
+      <td id="td1">
+        <label>Input String: </label>
+      </td>
+      <td id="td1">
+        <input type="text" id="string" required/>
+      </td>
+    </tr>
+    <tr >
+      <td id="td2">
+        <label>Input Word: </label>
+      </td>
+      <td id="td2">
+        <input type="text" id="word" required/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" id="td1">
+        <button onclick="return plotHistogram()">Plot Histogram</button>
+      </td>
+    </tr>
+  </table>
+</form>
+<div id="printhistogram"></div>
+</body>
+</html>

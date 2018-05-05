@@ -1,0 +1,14 @@
+table {
+  border:1px solid black;
+  border-collapse:collapse;
+}
+#td1 {
+  border:1px solid black;
+  margin:2px;
+  background-color: #cc0000;
+}
+#td2 {
+  border:1px solid black;
+  margin:2px;
+  background-color: #ffe6e6;
+}
