@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>A1Q3</title>
+</head>
+<body>
+  <h1>Édouard's Appartment Search Form</h1>
+  <fieldset>
+    <legend>Renter(s) Information</legend>
+    How many people will live in this apartment? <input type="number"  name="people"/><br /><br />
+    Smoker? <input type="radio" name="smoker" value="yes"/> Yes <input type="radio" name="smoker value"="no"/> No <br />
+    Any pets?<br />
+    <input type="checkbox" name="pets" value="cat" /> Cat(s) <br />
+    <input type="checkbox" name="pets" value="dog" /> Dog(s) <br />
+    <input type="checkbox" name="pets" value="other" /> Other Specify: <input type="text" name="otherPet" /><br />
+  </fieldset>
+  <fieldset>
+    <legend>What are you looking for?</legend>
+    Size of appartment:<br />
+    <input type="checkbox" name="size" value="studio" />Studio <input type="checkbox" name="size" value="31/2" />3&frac12 <input type="checkbox" name="size" value="41/2" />4&frac12
+    <input type="checkbox" name="size" value="51/2" />5&frac12 <input type="checkbox" name="size" value="more"/>More than 5&frac12 <br /><br />
+    Do you have any preferred locations?<br />
+    <input type="checkbox" name="location" value="west" />West Island <input type="checkbox" name="location" value="downtown" />Downtown <input type="checkbox" name="location" value="westmount" />Westmount
+    <input type="checkbox" name="location" value="NDG" />NDG <input type="checkbox" name="location" value="east"/>East Island <input type="checkbox" name="location" value="dontcare"/>Don't care <br /><br />
+    Price Range/month:
+    <select>
+      <option value="<500">Less than 500$</option>
+      <option value="500-750">500$-750$</option>
+      <option value="750-1000">750$-1000$</option>
+      <option value="nolimit">No price limit</option>
+    </select><br/><br />
+    It would be nice to have<br />
+    <input type="checkbox" name="extra" value="fireplace" />Fireplace <input type="checkbox" name="extra" value="Laudromat" />Laundromat <input type="checkbox" name="extra" value="indoor" />Indoor parking
+    <input type="checkbox" name="extra" value="output" />Output parking <input type="checkbox" name="extra" value="balcony"/>Balcony
+  </fieldset>
+  <br />Lets see what we can find...<br /><br />
+  <input type="submit" /><input type="reset" value="Start over" />
+</body>
+</html>
