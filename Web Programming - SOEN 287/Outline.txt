@@ -1,0 +1,6 @@
+SOEN 287
+  This is an introduction course on Web programming.
+  The course will include discussions and explanations of below mentioned topics: Internet 
+architecture and protocols, web applications through clients and servers, markup languages, 
+client-side programming using scripting languages, static website contents and dynamic page 
+generation using server-side programming, preserving state (client-side) in web applications.
