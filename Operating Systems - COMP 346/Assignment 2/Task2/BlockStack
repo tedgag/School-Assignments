@@ -1,0 +1,118 @@
+12c12
+< class BlockStack
+---
+> class BlockStack2
+27c27,28
+< 	public int iSize = DEFAULT_SIZE;
+---
+> 	// Changed to private
+> 	private int iSize = DEFAULT_SIZE;
+32c33,34
+< 	public int iTop  = 3;
+---
+> 	// Changed to private
+> 	private int iTop  = 3;
+37c39,43
+< 	public char acStack[] = new char[] {'a', 'b', 'c', 'd', '$', '$'};
+---
+> 	// Changed to private
+> 	private char acStack[] = new char[] {'a', 'b', 'c', 'd', '*', '*'};
+> 
+> 	// Changed to private
+> 	private int stackAccessCounter=0;
+41a48
+> 
+75c82,93
+< 		return this.acStack[this.iTop];
+---
+> 		//Try/catch block for exception handling. Throws an exception if the stack is empty and return '*'
+> 		try {
+> 			if (this.isEmpty()){
+> 				throw new EmptyStackException();
+> 			} else {
+> 				stackAccessCounter++;
+> 				return this.acStack[this.iTop];
+> 			}
+> 		} catch (EmptyStackException e){
+> 			System.out.print(e.getMessage());
+> 			return '*';
+> 		}
+84c102,119
+< 		return this.acStack[piPosition];
+---
+> 		// Try/catch block for exception handling. Throws an exception if the position is not within the stack and
+> 		// returns '*'. Throws an exception if the stack is empty and return '*'
+> 		try {
+> 			if (this.isEmpty()) {
+> 				throw new EmptyStackException();
+> 			} else if (piPosition<0||piPosition>=this.getISize()){
+> 					throw new IncorrectPositionException();
+> 			} else {
+> 					stackAccessCounter++;
+> 					return this.acStack[piPosition];
+> 			}
+> 		} catch (EmptyStackException e){
+> 			System.out.print(e.getMessage());
+> 			return '*';
+> 		} catch(IncorrectPositionException e){
+> 			System.out.print(e.getMessage());
+> 			return '*';
+> 		}
+92c127,146
+< 		this.acStack[++this.iTop] = pcBlock;
+---
+> 
+> 		// Try/catch block for exception handling. If the stack is full, the block cannot be pushed. If the stack is
+> 		// empty, push 'a' instead.
+> 		try {
+> 			if (this.isEmpty()) {
+> 				throw new EmptyStackException();
+> 			} else if (this.getITop()==(this.getISize()-1)){
+> 				throw new FullStackException();
+> 			} else {
+> 				stackAccessCounter++;
+> 				this.acStack[++this.iTop] = pcBlock;
+> 				System.out.println("Successfully pushed a block");
+> 			}
+> 		} catch (EmptyStackException e) {
+> 			System.out.println(e.getMessage());
+> 			stackAccessCounter++;
+> 			this.acStack[++this.iTop] = 'a';
+> 		} catch (FullStackException e){
+> 			System.out.println(e.getMessage());
+> 		}
+99,103c153,180
+< 	public char pop()
+< 	{
+< 		char cBlock = this.acStack[this.iTop];
+< 		this.acStack[this.iTop--] = '$'; // Leave prev. value undefined
+< 		return cBlock;
+---
+> 	public char pop() {
+> 		//Try/catch block for exception handling. Throws an exception if the stack is empty and returns '*'
+> 		try {
+> 			if (this.isEmpty()){
+> 				throw new EmptyStackException();
+> 			} else {
+> 				char cBlock = this.acStack[this.iTop];
+> 				stackAccessCounter++;
+> 				this.acStack[this.iTop--] = '*'; // Leave prev. value undefined
+> 				System.out.println("Successfully poped a block");
+> 				return cBlock;
+> 			}
+> 		} catch (EmptyStackException e){
+> 			System.out.println(e.getMessage());
+> 			return '*';
+> 		}
+> 	}
+> 	public int getAccessCounter(){
+> 		return this.stackAccessCounter;
+> 	}
+> 	public int getITop(){
+> 		return this.iTop;
+> 	}
+> 	public int getISize(){
+> 		return this.iSize;
+> 	}
+> 	public boolean isEmpty(){
+> 		return (this.iTop == -1);

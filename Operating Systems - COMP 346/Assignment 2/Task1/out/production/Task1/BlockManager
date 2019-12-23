@@ -1,0 +1,46 @@
+60c60
+< 			System.out.println("Initial value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Initial value of top = " + soStack.getITop() + ".");
+120c120
+< 			System.out.println("Final value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Final value of top = " + soStack.getITop() + ".");
+122c122
+< 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getTop() - 1) + ".");
+---
+> 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getITop() - 1) + ".");
+124d123
+< 
+150c149
+<                  * @see BlocStack#pop()
+---
+> 		 * @see BlockStack#pop()
+171c170
+< 					" from position " + (soStack.getTop() + 1) + "."
+---
+> 					" from position " + (soStack.getITop() + 1) + "."
+178c177
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+228c227
+< 					" to position " + (soStack.getTop() + 1) + "."
+---
+> 					" to position " + (soStack.getITop() + 1) + "."
+236c235
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+278c277
+< 					for(int s = 0; s < soStack.getSize(); s++)
+---
+> 					for(int s = 0; s < soStack.getISize(); s++)
+281c280
+< 							(s == BlockManager.soStack.getTop() ? "(" : "[") +
+---
+> 							(s == BlockManager.soStack.getITop() ? "(" : "[") +
+283c282
+< 							(s == BlockManager.soStack.getTop() ? ")" : "]")
+---
+> 							(s == BlockManager.soStack.getITop() ? ")" : "]")

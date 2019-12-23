@@ -1,0 +1,89 @@
+35c35
+< 	//private static Semaphore mutex = new Semaphore(...);
+---
+> 	private static Semaphore mutex = new Semaphore(1); //Init value set to 1
+60c60
+< 			System.out.println("Initial value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Initial value of top = " + soStack.getITop() + ".");
+120c120
+< 			System.out.println("Final value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Final value of top = " + soStack.getITop() + ".");
+122c122
+< 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getTop() - 1) + ".");
+---
+> 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getITop() - 1) + ".");
+124d123
+< 
+150c149
+<                  * @see BlocStack#pop()
+---
+> 		 * @see BlockStack#pop()
+153d151
+< 
+155a154
+> 
+160,161c159,160
+< 
+< 
+---
+> 			// C.S. begins
+> 			mutex.P();
+171c170
+< 					" from position " + (soStack.getTop() + 1) + "."
+---
+> 					" from position " + (soStack.getITop() + 1) + "."
+178c177
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+192c191,192
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+217,218c217,218
+< 
+< 
+---
+> 			// C.S. begins
+> 			mutex.P();
+228c228
+< 					" to position " + (soStack.getTop() + 1) + "."
+---
+> 					" to position " + (soStack.getITop() + 1) + "."
+236c236
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+249a250,251
+> 			mutex.V();
+> 			// C.S. ends
+251d252
+< 
+266a268
+> 
+268,269c270,271
+< 
+< 
+---
+> 			// C.S. begins
+> 			mutex.P();
+278c280
+< 					for(int s = 0; s < soStack.getSize(); s++)
+---
+> 					for(int s = 0; s < soStack.getISize(); s++)
+281c283
+< 							(s == BlockManager.soStack.getTop() ? "(" : "[") +
+---
+> 							(s == BlockManager.soStack.getITop() ? "(" : "[") +
+283c285
+< 							(s == BlockManager.soStack.getTop() ? ")" : "]")
+---
+> 							(s == BlockManager.soStack.getITop() ? ")" : "]")
+294a297,298
+> 			mutex.V();
+> 			// C.S. ends
+296d299
+< 

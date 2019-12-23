@@ -1,0 +1,181 @@
+35c35
+< 	//private static Semaphore mutex = new Semaphore(...);
+---
+> 	private static Semaphore mutex = new Semaphore(1); //Init value set to 1
+44c44,47
+< 	//private static Semaphore s1 = new Semaphore(...);
+---
+> 	private static Semaphore s1 = new Semaphore(-8);
+> 
+> 	private static boolean phase1Finished=false;
+> 	private static boolean phase2Finished=false;
+50c53
+< 	//private static Semaphore s2 = new Semaphore(...);
+---
+> 	private static Semaphore s2 = new Semaphore(1);
+60c63
+< 			System.out.println("Initial value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Initial value of top = " + soStack.getITop() + ".");
+120c123
+< 			System.out.println("Final value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Final value of top = " + soStack.getITop() + ".");
+122c125
+< 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getTop() - 1) + ".");
+---
+> 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getITop() - 1) + ".");
+124d126
+< 
+150c152
+<                  * @see BlocStack#pop()
+---
+> 		 * @see BlockStack#pop()
+153d154
+< 
+158d158
+< 
+160,161c160,168
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+171c178
+< 					" from position " + (soStack.getTop() + 1) + "."
+---
+> 					" from position " + (soStack.getITop() + 1) + "."
+178c185
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+192c199,215
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+> 			/*
+> 			* In this section, the thread will execute phase 2 in the order of their thread ID. To do so, they are
+> 			* immediatly set to wait so they go one by one in the second phase, and they go in a while loop that locks
+> 			* them until their TID is the same as a turn counter (which starts at 1). In the while loop, the sempahore
+> 			* is released using the signal and wait operations (so other threads can enter the loop). A message is also
+> 			* printed during each loops signaling that the thread tried to enter phase 2. When the thread can finally
+> 			* exit the loop, it goes into phase 2 and signal the sempaphore after exiting phase 2.
+> 			*
+> 			*/
+> 			s2.P();
+> 			while(!turnTestAndSet(true)){
+> 				System.out.println("Thread # " +this.getTID()+" tried to proceed to phase 2 but is waiting for its turn");
+> 				s2.V();
+> 				s2.P();
+> 			}
+193a217
+> 			s2.V();
+214,215d237
+< 
+< 
+217,218c239,247
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+228c257
+< 					" to position " + (soStack.getTop() + 1) + "."
+---
+> 					" to position " + (soStack.getITop() + 1) + "."
+236c265
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+250,251c279,295
+< 
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+> 			/*
+> 			 * In this section, the thread will execute phase 2 in the order of their thread ID. To do so, they are
+> 			 * immediatly set to wait so they go one by one in the second phase, and they go in a while loop that locks
+> 			 * them until their TID is the same as a turn counter (which starts at 1). In the while loop, the sempahore
+> 			 * is released using the signal and wait operations (so other threads can enter the loop). A message is also
+> 			 * printed during each loops signaling that the thread tried to enter phase 2. When the thread can finally
+> 			 * exit the loop, it goes into phase 2 and signal the sempaphore after exiting phase 2.
+> 			 *
+> 			 */
+> 			s2.P();
+> 			while(!turnTestAndSet(true)){
+> 				System.out.println("Thread # " +this.getTID()+" tried to proceed to phase 2 but is waiting for its turn");
+> 				s2.V();
+> 				s2.P();
+> 			}
+252a297
+> 			s2.V();
+268,269c313,321
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+276c328
+< 					// [s] - means ordinay slot of a stack
+---
+> 					// [s] - means ordinary slot of a stack
+278c330
+< 					for(int s = 0; s < soStack.getSize(); s++)
+---
+> 					for(int s = 0; s < soStack.getISize(); s++)
+281c333
+< 							(s == BlockManager.soStack.getTop() ? "(" : "[") +
+---
+> 							(s == BlockManager.soStack.getITop() ? "(" : "[") +
+283c335
+< 							(s == BlockManager.soStack.getTop() ? ")" : "]")
+---
+> 							(s == BlockManager.soStack.getITop() ? ")" : "]")
+295,296c347,363
+< 
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+> 			/*
+> 			 * In this section, the thread will execute phase 2 in the order of their thread ID. To do so, they are
+> 			 * immediatly set to wait so they go one by one in the second phase, and they go in a while loop that locks
+> 			 * them until their TID is the same as a turn counter (which starts at 1). In the while loop, the sempahore
+> 			 * is released using the signal and wait operations (so other threads can enter the loop). A message is also
+> 			 * printed during each loops signaling that the thread tried to enter phase 2. When the thread can finally
+> 			 * exit the loop, it goes into phase 2 and signal the sempaphore after exiting phase 2.
+> 			 *
+> 			 */
+> 			s2.P();
+> 			while(!turnTestAndSet(true)){
+> 				System.out.println("Thread # " +this.getTID()+" tried to proceed to phase 2 but is waiting for its turn");
+> 				s2.V();
+> 				s2.P();
+> 			}
+298c365
+< 
+---
+> 			s2.V();

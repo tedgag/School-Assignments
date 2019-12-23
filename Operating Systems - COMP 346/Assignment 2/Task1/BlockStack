@@ -1,0 +1,45 @@
+37c37,40
+< 	public char acStack[] = new char[] {'a', 'b', 'c', 'd', '$', '$'};
+---
+> 	public char acStack[] = new char[] {'a', 'b', 'c', 'd', '*', '*'};
+> 
+> 	// Counter that is incremented every time the stack is accessed
+> 	public int stackAccessCounter=0;
+41a45
+> 
+74a79,80
+> 		//Stack access: incrementing counter
+> 		stackAccessCounter++;
+83a90,91
+> 		//Stack access: incrementing counter
+> 		stackAccessCounter++;
+91a100,101
+> 		//Stack access: incrementing counter
+> 		stackAccessCounter++;
+92a103
+> 		System.out.println("Successfully pushed a block");
+100a112,113
+> 		//Stack access: incrementing counter
+> 		stackAccessCounter++;
+102c115,116
+< 		this.acStack[this.iTop--] = '$'; // Leave prev. value undefined
+---
+> 		this.acStack[this.iTop--] = '*'; // Leave prev. value undefined
+> 		System.out.println("Successfully poped a block");
+104a119,134
+> 	// Counter getter method
+> 	public int getAccessCounter(){
+> 		return this.stackAccessCounter;
+> 	}
+> 	// Stack top getter method
+> 	public int getITop(){
+> 		return this.iTop;
+> 	}
+> 	// Stack size getter method
+> 	public int getISize(){
+> 		return this.iSize;
+> 	}
+> 	// Method that checks if the stack is empty
+> 	public boolean isEmpty(){
+> 		return (this.iTop == -1);
+> 	}

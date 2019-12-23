@@ -1,0 +1,151 @@
+35c35
+< 	//private static Semaphore mutex = new Semaphore(...);
+---
+> 	private static Semaphore mutex = new Semaphore(1); //Init value set to 1
+44c44,46
+< 	//private static Semaphore s1 = new Semaphore(...);
+---
+> 	private static Semaphore s1 = new Semaphore(-8);
+> 
+> 	private static boolean phase1Finished=false;
+60c62
+< 			System.out.println("Initial value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Initial value of top = " + soStack.getITop() + ".");
+120c122
+< 			System.out.println("Final value of top = " + soStack.getTop() + ".");
+---
+> 			System.out.println("Final value of top = " + soStack.getITop() + ".");
+122c124
+< 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getTop() - 1) + ".");
+---
+> 			System.out.println("Final value of stack top-1 = " + soStack.getAt(soStack.getITop() - 1) + ".");
+124d125
+< 
+150c151
+<                  * @see BlocStack#pop()
+---
+> 		 * @see BlockStack#pop()
+153d153
+< 
+155a156,163
+> 			/*
+> 			* This section makes all threads wait for the other threads to finish phase 1 before starting phase 2. It
+> 			* does so by having a semaphore with an IValue of -8 (1 minus # of threads) that is incremented every time
+> 			* a thread finish phase1 using the Signal method. The threads are then put into wait using the Wait
+> 			* operation, so when the last thread leaves the Signal method, all the threads will be able to leave Wait
+> 			* and continue. A Signal operation is used again to increment iValue since the Wait method decrements iValue
+> 			* by 1. A message is displayed for the first thread to exit the Wait method.
+> 			*/
+158d165
+< 
+160,161c167,175
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+171c185
+< 					" from position " + (soStack.getTop() + 1) + "."
+---
+> 					" from position " + (soStack.getITop() + 1) + "."
+178c192
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+192c206,207
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+212a228,235
+> 			/*
+> 			 * This section makes all threads wait for the other threads to finish phase 1 before starting phase 2. It
+> 			 * does so by having a semaphore with an IValue of -8 (1 minus # of threads) that is incremented every time
+> 			 * a thread finish phase1 using the Signal method. The threads are then put into wait using the Wait
+> 			 * operation, so when the last thread leaves the Signal method, all the threads will be able to leave Wait
+> 			 * and continue. A Signal operation is used again to increment iValue since the Wait method decrements iValue
+> 			 * by 1. A message is displayed for the first thread to exit the Wait method.
+> 			 */
+214,215d236
+< 
+< 
+217,218c238,246
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+228c256
+< 					" to position " + (soStack.getTop() + 1) + "."
+---
+> 					" to position " + (soStack.getITop() + 1) + "."
+236c264
+< 					soStack.getTop() + "."
+---
+> 					soStack.getITop() + "."
+250,251c278,279
+< 
+< 
+---
+> 			mutex.V();
+> 			// C.S. ends
+266a295,302
+> 			/*
+> 			 * This section makes all threads wait for the other threads to finish phase 1 before starting phase 2. It
+> 			 * does so by having a semaphore with an IValue of -8 (1 minus # of threads) that is incremented every time
+> 			 * a thread finish phase1 using the Signal method. The threads are then put into wait using the Wait
+> 			 * operation, so when the last thread leaves the Signal method, all the threads will be able to leave Wait
+> 			 * and continue. A Signal operation is used again to increment iValue since the Wait method decrements iValue
+> 			 * by 1. A message is displayed for the first thread to exit the Wait method.
+> 			 */
+268,269c304,312
+< 
+< 
+---
+> 			s1.V();
+> 			s1.P();
+> 			if (!phase1Finished){
+> 				phase1Finished=true;
+> 				System.out.println("***ALL THREADS FINISHED PHASE 1***");
+> 			}
+> 			s1.V();
+> 			// C.S. begins
+> 			mutex.P();
+276c319
+< 					// [s] - means ordinay slot of a stack
+---
+> 					// [s] - means ordinary slot of a stack
+278c321
+< 					for(int s = 0; s < soStack.getSize(); s++)
+---
+> 					for(int s = 0; s < soStack.getISize(); s++)
+281c324
+< 							(s == BlockManager.soStack.getTop() ? "(" : "[") +
+---
+> 							(s == BlockManager.soStack.getITop() ? "(" : "[") +
+283c326
+< 							(s == BlockManager.soStack.getTop() ? ")" : "]")
+---
+> 							(s == BlockManager.soStack.getITop() ? ")" : "]")
+294a338,340
+> 			mutex.V();
+> 			// C.S. ends
+> 			phase2();
+297,298d342
+< 			phase2();
+< 
