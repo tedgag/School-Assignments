@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0D2279FF-DDB8-4AA0-B07E-7D4C3BE89E4C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0D2279FF-DDB8-4AA0-B07E-7D4C3BE89E4C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606958618.30683303</real>
+			<key>timeStoppedRecording</key>
+			<real>606958621.88631904</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>0D2279FF-DDB8-4AA0-B07E-7D4C3BE89E4C</string>
+		</dict>
+		<key>18E346B9-057E-4E0C-BF53-F033452EEB7A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>18E346B9-057E-4E0C-BF53-F033452EEB7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606971310.76113999</real>
+			<key>timeStoppedRecording</key>
+			<real>606971331.395522</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>18E346B9-057E-4E0C-BF53-F033452EEB7A</string>
+		</dict>
+		<key>2B2FF094-954B-4D2C-8F97-91D500EE8C5B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2B2FF094-954B-4D2C-8F97-91D500EE8C5B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606959979.37368</real>
+			<key>timeStoppedRecording</key>
+			<real>606959988.66676402</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>2B2FF094-954B-4D2C-8F97-91D500EE8C5B</string>
+		</dict>
+		<key>31441882-E237-4F7A-9EBF-BA3E6D91802D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>31441882-E237-4F7A-9EBF-BA3E6D91802D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969849.99417806</real>
+			<key>timeStoppedRecording</key>
+			<real>606969856.38496804</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>31441882-E237-4F7A-9EBF-BA3E6D91802D</string>
+		</dict>
+		<key>38E44BE1-0760-40A3-91D2-E06D8FFC2CF0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>38E44BE1-0760-40A3-91D2-E06D8FFC2CF0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969496.96185195</real>
+			<key>timeStoppedRecording</key>
+			<real>606969504.86676502</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>38E44BE1-0760-40A3-91D2-E06D8FFC2CF0</string>
+		</dict>
+		<key>3BB976F7-6531-4F30-B665-0AC22A4BD54E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3BB976F7-6531-4F30-B665-0AC22A4BD54E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969819.204</real>
+			<key>timeStoppedRecording</key>
+			<real>606969831.54341805</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>3BB976F7-6531-4F30-B665-0AC22A4BD54E</string>
+		</dict>
+		<key>42069F68-92BD-494D-B63B-00FDEE846F09</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>42069F68-92BD-494D-B63B-00FDEE846F09.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606971219.59535599</real>
+			<key>timeStoppedRecording</key>
+			<real>606971261.46908796</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>42069F68-92BD-494D-B63B-00FDEE846F09</string>
+		</dict>
+		<key>42823B93-2722-4BC5-918F-4BF78029711F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>42823B93-2722-4BC5-918F-4BF78029711F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970624.61620295</real>
+			<key>timeStoppedRecording</key>
+			<real>606970785.30283296</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>42823B93-2722-4BC5-918F-4BF78029711F</string>
+		</dict>
+		<key>45245B6E-F669-44BC-AC86-A37A5B7912E3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>45245B6E-F669-44BC-AC86-A37A5B7912E3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969839.02029896</real>
+			<key>timeStoppedRecording</key>
+			<real>606969843.46579301</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>45245B6E-F669-44BC-AC86-A37A5B7912E3</string>
+		</dict>
+		<key>5967256B-13A6-427D-BC4C-770E0013A79A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5967256B-13A6-427D-BC4C-770E0013A79A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606961003.00093603</real>
+			<key>timeStoppedRecording</key>
+			<real>606961018.01312399</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>5967256B-13A6-427D-BC4C-770E0013A79A</string>
+		</dict>
+		<key>5D5A14E7-E136-4172-A49C-24CF2D52C224</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5D5A14E7-E136-4172-A49C-24CF2D52C224.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606968468.97085905</real>
+			<key>timeStoppedRecording</key>
+			<real>606968607.13037896</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>5D5A14E7-E136-4172-A49C-24CF2D52C224</string>
+		</dict>
+		<key>61326688-E06D-4235-90F2-6C6A74D629DC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>61326688-E06D-4235-90F2-6C6A74D629DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606960413.47605801</real>
+			<key>timeStoppedRecording</key>
+			<real>606960419.14126801</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>61326688-E06D-4235-90F2-6C6A74D629DC</string>
+		</dict>
+		<key>64A73B5B-7ADA-40DF-9803-9682577FB748</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>64A73B5B-7ADA-40DF-9803-9682577FB748.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606960989.44442701</real>
+			<key>timeStoppedRecording</key>
+			<real>606960997.38739598</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>64A73B5B-7ADA-40DF-9803-9682577FB748</string>
+		</dict>
+		<key>93500E46-7F9C-4953-9C1C-690A3CE31672</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>93500E46-7F9C-4953-9C1C-690A3CE31672.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969870.92145705</real>
+			<key>timeStoppedRecording</key>
+			<real>606969880.10603702</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>93500E46-7F9C-4953-9C1C-690A3CE31672</string>
+		</dict>
+		<key>936881FC-017D-4F5D-8A3B-9D2E38DB3702</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>936881FC-017D-4F5D-8A3B-9D2E38DB3702.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606968610.15099597</real>
+			<key>timeStoppedRecording</key>
+			<real>606968858.80728197</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>936881FC-017D-4F5D-8A3B-9D2E38DB3702</string>
+		</dict>
+		<key>975C3C4A-2B97-45CA-AD47-9DC8C5E773D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>975C3C4A-2B97-45CA-AD47-9DC8C5E773D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969864.77389205</real>
+			<key>timeStoppedRecording</key>
+			<real>606969868.56911397</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>975C3C4A-2B97-45CA-AD47-9DC8C5E773D6</string>
+		</dict>
+		<key>9E314D05-A7E2-47F2-B8A6-9629C921B839</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9E314D05-A7E2-47F2-B8A6-9629C921B839.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969506.83484399</real>
+			<key>timeStoppedRecording</key>
+			<real>606969511.47179198</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>9E314D05-A7E2-47F2-B8A6-9629C921B839</string>
+		</dict>
+		<key>AE369187-0AFD-4CC4-A21B-23418CE3355E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>AE369187-0AFD-4CC4-A21B-23418CE3355E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969483.35014498</real>
+			<key>timeStoppedRecording</key>
+			<real>606969490.06852198</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>AE369187-0AFD-4CC4-A21B-23418CE3355E</string>
+		</dict>
+		<key>B1F4C7CE-8964-43C0-8E9D-8C83686AACE6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B1F4C7CE-8964-43C0-8E9D-8C83686AACE6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970099.08178604</real>
+			<key>timeStoppedRecording</key>
+			<real>606970104.63568795</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>B1F4C7CE-8964-43C0-8E9D-8C83686AACE6</string>
+		</dict>
+		<key>B30066AD-54EF-4341-9014-DDB2F0D9A04B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B30066AD-54EF-4341-9014-DDB2F0D9A04B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970948.59449697</real>
+			<key>timeStoppedRecording</key>
+			<real>606970962.36069703</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>B30066AD-54EF-4341-9014-DDB2F0D9A04B</string>
+		</dict>
+		<key>B42881E6-CE77-4527-97D8-E1918353AFE0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B42881E6-CE77-4527-97D8-E1918353AFE0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606971333.33716404</real>
+			<key>timeStoppedRecording</key>
+			<real>606971344.42027402</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>B42881E6-CE77-4527-97D8-E1918353AFE0</string>
+		</dict>
+		<key>B6D0B0C5-93FD-4BC4-80FC-A01153CE4D1E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B6D0B0C5-93FD-4BC4-80FC-A01153CE4D1E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970315.18804204</real>
+			<key>timeStoppedRecording</key>
+			<real>606970319.85698497</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>B6D0B0C5-93FD-4BC4-80FC-A01153CE4D1E</string>
+		</dict>
+		<key>C06480FD-01FB-40FE-8B30-2BA746E68498</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C06480FD-01FB-40FE-8B30-2BA746E68498.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970472.85860395</real>
+			<key>timeStoppedRecording</key>
+			<real>606970550.12783504</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>C06480FD-01FB-40FE-8B30-2BA746E68498</string>
+		</dict>
+		<key>C0F51B72-1E29-440B-A505-54ED35D03517</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C0F51B72-1E29-440B-A505-54ED35D03517.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606958758.37921405</real>
+			<key>timeStoppedRecording</key>
+			<real>606958767.82659996</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>C0F51B72-1E29-440B-A505-54ED35D03517</string>
+		</dict>
+		<key>C755C594-FFFA-453B-8228-6480AFCDA6D6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C755C594-FFFA-453B-8228-6480AFCDA6D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606959942.52972698</real>
+			<key>timeStoppedRecording</key>
+			<real>606959946.98378801</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>C755C594-FFFA-453B-8228-6480AFCDA6D6</string>
+		</dict>
+		<key>CFABAB1C-E6DD-43D1-91B2-56D743DFFD46</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CFABAB1C-E6DD-43D1-91B2-56D743DFFD46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606971016.93727195</real>
+			<key>timeStoppedRecording</key>
+			<real>606971217.917032</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>CFABAB1C-E6DD-43D1-91B2-56D743DFFD46</string>
+		</dict>
+		<key>D260AC56-D91B-4504-A834-30E49BEAB314</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D260AC56-D91B-4504-A834-30E49BEAB314.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606968227.53552306</real>
+			<key>timeStoppedRecording</key>
+			<real>606968231.97649395</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>D260AC56-D91B-4504-A834-30E49BEAB314</string>
+		</dict>
+		<key>D5B16AB5-7F87-401A-ADDA-8B36963273F0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D5B16AB5-7F87-401A-ADDA-8B36963273F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606967970.17427194</real>
+			<key>timeStoppedRecording</key>
+			<real>606967975.24773097</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>D5B16AB5-7F87-401A-ADDA-8B36963273F0</string>
+		</dict>
+		<key>D61591C5-569F-47A5-BA1E-7FBB68E71FC8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D61591C5-569F-47A5-BA1E-7FBB68E71FC8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970793.15280402</real>
+			<key>timeStoppedRecording</key>
+			<real>606970946.95665503</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>D61591C5-569F-47A5-BA1E-7FBB68E71FC8</string>
+		</dict>
+		<key>E6C01940-8806-4E74-9499-C160741CBB23</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E6C01940-8806-4E74-9499-C160741CBB23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970153.466465</real>
+			<key>timeStoppedRecording</key>
+			<real>606970157.65868795</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>E6C01940-8806-4E74-9499-C160741CBB23</string>
+		</dict>
+		<key>E760DAC6-C62A-4635-B9DC-1741A2101C78</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E760DAC6-C62A-4635-B9DC-1741A2101C78.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970968.05448997</real>
+			<key>timeStoppedRecording</key>
+			<real>606971011.381675</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>E760DAC6-C62A-4635-B9DC-1741A2101C78</string>
+		</dict>
+		<key>E85C44BB-1C56-4D1F-9F6D-67558716305D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E85C44BB-1C56-4D1F-9F6D-67558716305D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606971283.86532199</real>
+			<key>timeStoppedRecording</key>
+			<real>606971308.97263503</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>E85C44BB-1C56-4D1F-9F6D-67558716305D</string>
+		</dict>
+		<key>E8BC0572-CC3C-4FDC-95A1-AE23E5688BA4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E8BC0572-CC3C-4FDC-95A1-AE23E5688BA4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606970555.55517805</real>
+			<key>timeStoppedRecording</key>
+			<real>606970622.75438404</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>E8BC0572-CC3C-4FDC-95A1-AE23E5688BA4</string>
+		</dict>
+		<key>FB7E1EDC-C0B7-4FFA-922C-9FB5A4A50002</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FB7E1EDC-C0B7-4FFA-922C-9FB5A4A50002.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606959875.51621604</real>
+			<key>timeStoppedRecording</key>
+			<real>606959880.14590299</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>FB7E1EDC-C0B7-4FFA-922C-9FB5A4A50002</string>
+		</dict>
+		<key>FCBCFE8B-2B09-48A2-AD24-A1C82995AB1C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FCBCFE8B-2B09-48A2-AD24-A1C82995AB1C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>606969845.09753501</real>
+			<key>timeStoppedRecording</key>
+			<real>606969849.02450597</real>
+			<key>title</key>
+			<string>Debug A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>FCBCFE8B-2B09-48A2-AD24-A1C82995AB1C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

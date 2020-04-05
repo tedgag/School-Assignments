@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0A3B175E-C814-411D-B396-BFA418665430</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A3B175E-C814-411D-B396-BFA418665430.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GLFW OpenGL</string>
+			<key>timeStartedRecording</key>
+			<real>607731348.21012199</real>
+			<key>timeStoppedRecording</key>
+			<real>607731357.680969</real>
+			<key>title</key>
+			<string>Build GLFW OpenGL</string>
+			<key>uniqueIdentifier</key>
+			<string>0A3B175E-C814-411D-B396-BFA418665430</string>
+		</dict>
+		<key>C68D59FF-729C-490A-9353-23EF6E022052</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C68D59FF-729C-490A-9353-23EF6E022052.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build GLFW OpenGL</string>
+			<key>timeStartedRecording</key>
+			<real>607729193.50471795</real>
+			<key>timeStoppedRecording</key>
+			<real>607729193.88258898</real>
+			<key>title</key>
+			<string>Build GLFW OpenGL</string>
+			<key>uniqueIdentifier</key>
+			<string>C68D59FF-729C-490A-9353-23EF6E022052</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

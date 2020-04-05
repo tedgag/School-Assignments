@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>125B0752-0642-46F2-92CC-3860FCE32315</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>125B0752-0642-46F2-92CC-3860FCE32315.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>607731357.69095397</real>
+			<key>timeStoppedRecording</key>
+			<real>607731369.06286299</real>
+			<key>title</key>
+			<string>Run A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>125B0752-0642-46F2-92CC-3860FCE32315</string>
+		</dict>
+		<key>7F813CA7-B771-4177-BE15-AC4C623EF02F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7F813CA7-B771-4177-BE15-AC4C623EF02F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>A2_40061204 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>GLFW OpenGL</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run A2_40061204</string>
+			<key>timeStartedRecording</key>
+			<real>607729193.88551998</real>
+			<key>timeStoppedRecording</key>
+			<real>607729197.40148199</real>
+			<key>title</key>
+			<string>Run A2_40061204</string>
+			<key>uniqueIdentifier</key>
+			<string>7F813CA7-B771-4177-BE15-AC4C623EF02F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
